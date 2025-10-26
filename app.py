@@ -4,7 +4,7 @@ import google.generativeai as genai
 
 # --- Configuration & Initialization ---
 # IMPORTANT: For production, use environment variables to store your API Key.
-API_KEY = "AIzaSyD-Kt2Son2_OhNVbBFcsYMdr7chS9nEjkc" 
+API_KEY = "Enter your API KEY HERE" 
 genai.configure(api_key=API_KEY)
 
 app = Flask(__name__)
@@ -53,3 +53,4 @@ def chat_endpoint():
 if __name__ == '__main__':
     # Runs the server on http://127.0.0.1:5000/
     app.run(debug=True)
+
